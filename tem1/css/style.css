@@ -207,6 +207,34 @@
   padding: 10px 20px;
 }
 
+#firBox {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 800px;
+}
+#firBox .firTxt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+  height: 100%;
+}
+#firBox .firImg {
+  width: 50%;
+  height: 100%;
+  background-color: rgb(98, 49, 30);
+}
+
+#secBox {
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 #swp .swiper {
   width: 100%;
   height: 100%;
