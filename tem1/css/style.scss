@@ -234,7 +234,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+
 }
 #swp{
     .swiper {
@@ -351,6 +351,19 @@
         }
         .tabOn{
             display: inherit;
+        }
+    }
+}
+#scr_swp{
+    display: flex;
+    .leftSwp{
+        display: inline-block;
+        width: 380px;
+        margin-right: 3rem;
+        .swiper-wrapper{
+            .swiper-slide{
+                img{}
+            }
         }
     }
 }

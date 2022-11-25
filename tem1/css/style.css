@@ -348,6 +348,14 @@
   display: inherit;
 }
 
+#scr_swp {
+  display: flex;
+}
+#scr_swp .leftSwp {
+  display: inline-block;
+  width: 380px;
+  margin-right: 3rem;
+}
 #event {
   padding: 22% 40px;
   text-align: center;
